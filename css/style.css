@@ -82,4 +82,14 @@
 }
 .login .formulario .texto {
   font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+  .login {
+    display: flex;
+    flex-direction: column;
+  }
+  .login .text-box {
+    margin-bottom: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */
