@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #F2F4F7;
+    padding: 0 200px;
+    min-width: 100%;
+    
+
+    .text-box {
+        min-width: 60%;
+        margin-right: 50px;
+        
+        h1 {
+            font-size: 70px;
+            font-weight: bold;
+            color: #0866FF;
+        }
+
+        p {
+            font-size: 30px;
+        }
+    }
+
+    .formulario {
+        min-width: 40%;
+        text-align: center;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #FFFFFF;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.293);
+            min-height: 50%;
+            margin-bottom: 40px;
+
+            input {
+                font-size: 15px;
+                width: 100%;
+                padding: 15px;
+                margin: 10px;
+                border: 1px solid #DDDFE2;
+                border-radius: 7px;
+                color: #DDDFE2;
+            }
+
+            button:first-of-type {
+                background-color: #1877F2;
+                font-size: 20px;
+                font-weight: bold;
+                width: 100%;
+                padding: 15px;
+                margin: 10px;
+                border: 1px solid #DDDFE2;
+                border-radius: 7px;
+                color: white;
+            }
+
+            a {
+                text-align: center;
+                padding: 15px 0;
+                border-bottom: 1px solid #DDDFE2;
+                width: 100%;
+            }
+
+            button:last-of-type {
+                background-color: #42B72A;
+                font-size: 18px;
+                font-weight: bold;
+                width: 60%;
+                padding: 15px 0;
+                margin: 30px 0;
+                border: 1px solid #DDDFE2;
+                border-radius: 7px;
+                color: white;
+                text-align: center;
+            }
+        }
+
+        .texto {
+            font-size: 14px;
+
+        }
+    }
+}
